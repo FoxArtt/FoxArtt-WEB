@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c30b40cf-a12f-4998-8d1a-45e80bc03f8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.lazy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App/App.tsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +98,7 @@
       <updated>1575399547002</updated>
       <workItem from="1575399549223" duration="4617000" />
       <workItem from="1575434657272" duration="3490000" />
-      <workItem from="1575438180308" duration="1588000" />
+      <workItem from="1575438180308" duration="4742000" />
     </task>
     <servers />
   </component>
@@ -116,5 +123,17 @@
     <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" />
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" />
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
