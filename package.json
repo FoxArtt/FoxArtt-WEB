@@ -7,9 +7,14 @@
     "@types/node": "12.12.14",
     "@types/react": "16.9.14",
     "@types/react-dom": "16.9.4",
+    "@types/reactstrap": "^8.0.6",
+    "babel": "^6.23.0",
     "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
     "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0",
     "react": "^16.12.0",
+    "react-device-detect": "^1.11.14",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
     "reactstrap": "^8.1.1",
@@ -37,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@storybook/react": "^5.2.8"
+    "@storybook/react": "^5.2.8",
+    "typescript-transform-jsx": "^1.5.0"
   }
 }

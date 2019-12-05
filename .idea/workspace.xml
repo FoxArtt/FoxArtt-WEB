@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30b40cf-a12f-4998-8d1a-45e80bc03f8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.lazy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App/App.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App/App.tsx" beforeDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="4cb921c5-fbb7-484c-860c-beb09ccdfe84" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Edycar Reyes &lt;edycarreyes@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -37,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CDOSA/src/App.tsx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cdosa/package.json" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,7 +40,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -54,18 +48,6 @@
       <recent name="C:\Users\edyca\Desktop\WEBS\foxartt\src\assets\images" />
       <recent name="$PROJECT_DIR$/src/pages/App" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.ReactJS Serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -86,6 +68,18 @@
       <item itemvalue="npm.ReactJS Serve" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,6 +98,14 @@
       <workItem from="1575438180308" duration="4742000" />
 >>>>>>> 7c2c1565b1475d4800f27abc8a501a36300447bc
     </task>
+    <task id="LOCAL-00001" summary="Se agrega la dependencia de Countdown al proyecto para mostrarlo en la vista UnderConstruction">
+      <created>1575523781689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575523781689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,11 +124,61 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se agrega la dependencia de Countdown al proyecto para mostrarlo en la vista UnderConstruction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega la dependencia de Countdown al proyecto para mostrarlo en la vista UnderConstruction" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" />
+    <state x="555" y="215" width="800" height="684" key="#File_Watchers" timestamp="1575522502027">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#File_Watchers/0.27.1920.1053@0.27.1920.1053" timestamp="1575522502027" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575520909184" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575520909186" />
+    <state x="738" y="268" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1575522487445">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="738" y="268" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575522487445" />
+    <state x="525" y="150" width="860" height="814" key="CommitChangelistDialog2" timestamp="1575523781517">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="525" y="150" width="860" height="814" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1575523781517" />
+    <state x="258" y="334" width="1394" height="452" key="EditFileWatcherDialog" timestamp="1575522498507">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="258" y="334" width="1394" height="452" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575522498507" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575577508787">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1575577508787" />
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom" timestamp="1575564880963">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1575564880963" />
+    <state width="1897" height="275" key="GridCell.Tab.0.center" timestamp="1575564880961">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1575564880961" />
+    <state width="1897" height="275" key="GridCell.Tab.0.left" timestamp="1575564880961">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1575564880961" />
+    <state width="1897" height="275" key="GridCell.Tab.0.right" timestamp="1575564880962">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1575564880962" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575522320618">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1575522320618" />
+    <state x="608" y="289" width="704" height="528" key="find.popup" timestamp="1575570366030">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="608" y="289" width="704" height="528" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1575570366030" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1575573681803">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1575573681803" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -134,7 +186,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
