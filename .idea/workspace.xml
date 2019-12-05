@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb921c5-fbb7-484c-860c-beb09ccdfe84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/UnderConstruction/UnderConstruction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UnderConstruction/UnderConstruction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CDOSA/src/App.tsx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cdosa/package.json" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -145,10 +147,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="258" y="334" width="1394" height="452" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575522498507" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575522474329">
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575577508787">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1575522474329" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1575577508787" />
     <state width="1897" height="275" key="GridCell.Tab.0.bottom" timestamp="1575564880963">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
