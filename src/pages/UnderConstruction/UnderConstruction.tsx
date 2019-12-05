@@ -45,7 +45,6 @@ class UnderConstruction extends Component<props, state> {
             this.setState({
                 tiempoRestante: this.generarFechaFormateada()
             });
-            console.log(this.generarFechaFormateada());
         }, 1000);
     }
 
