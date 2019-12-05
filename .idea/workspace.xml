@@ -3,13 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="c30b40cf-a12f-4998-8d1a-45e80bc03f8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.lazy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/App/App.tsx" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UU7v0dllDEZQrgcCu5eWmEphtE" />
@@ -23,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CDOSA/src/App.tsx" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,12 +46,26 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\edyca\Desktop\WEBS\foxartt\src\assets\images" />
       <recent name="$PROJECT_DIR$/src/pages/App" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="npm.ReactJS Serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -57,18 +86,6 @@
       <item itemvalue="npm.ReactJS Serve" />
     </list>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -80,21 +97,47 @@
       <option name="presentableId" value="Default" />
       <updated>1575399547002</updated>
       <workItem from="1575399549223" duration="4617000" />
+<<<<<<< HEAD
       <workItem from="1575520631685" duration="18000" />
+=======
+      <workItem from="1575434657272" duration="3490000" />
+      <workItem from="1575438180308" duration="4742000" />
+>>>>>>> 7c2c1565b1475d4800f27abc8a501a36300447bc
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575399904831">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575399904831" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575399885645">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1575399885645" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
