@@ -6,5 +6,16 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: start;
+
+  #encabezadoTexto {
+    font-size: 5vw;
+  }
+
+  #subtitulo {
+    font-size: 1.6vw;
+  }
+
+  .subtitulo {
+    font-size: 1.6vw;
+  }
 }
