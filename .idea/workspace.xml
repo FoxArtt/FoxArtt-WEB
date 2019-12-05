@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30b40cf-a12f-4998-8d1a-45e80bc03f8b" name="Default Changelist" comment="">
+    <list default="true" id="4cb921c5-fbb7-484c-860c-beb09ccdfe84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.lazy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App/App.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/App/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,18 +47,6 @@
       <recent name="$PROJECT_DIR$/src/pages/App" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="npm.ReactJS Serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -85,6 +65,18 @@
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.ReactJS Serve" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -130,7 +122,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/UnderConstruction/UnderConstruction.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
