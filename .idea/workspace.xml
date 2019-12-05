@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb921c5-fbb7-484c-860c-beb09ccdfe84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UnderConstruction/UnderConstruction.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UnderConstruction/UnderConstruction.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UnderConstruction/UnderConstruction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UnderConstruction/UnderConstruction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -111,10 +117,44 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" />
+    <state x="555" y="215" width="800" height="684" key="#File_Watchers" timestamp="1575522502027">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="800" height="684" key="#File_Watchers/0.27.1920.1053@0.27.1920.1053" timestamp="1575522502027" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575520909184" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575520909186" />
+    <state x="738" y="268" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1575522487445">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="738" y="268" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575522487445" />
+    <state x="258" y="334" width="1394" height="452" key="EditFileWatcherDialog" timestamp="1575522498507">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="258" y="334" width="1394" height="452" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1575522498507" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575522474329">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1575522474329" />
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom" timestamp="1575521724029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1575521724029" />
+    <state width="1897" height="275" key="GridCell.Tab.0.center" timestamp="1575521724028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1575521724028" />
+    <state width="1897" height="275" key="GridCell.Tab.0.left" timestamp="1575521724027">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1575521724027" />
+    <state width="1897" height="275" key="GridCell.Tab.0.right" timestamp="1575521724028">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1897" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1575521724028" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575522320618">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1575522320618" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
