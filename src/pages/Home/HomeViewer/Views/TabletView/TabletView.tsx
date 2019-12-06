@@ -5,7 +5,7 @@ type props = {};
 type state = {};
 
 class TabletView extends Component<props, state> {
-    constructor(props: any) {
+    constructor(props: props) {
         super(props);
         this.state = {};
     }
