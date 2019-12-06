@@ -29,7 +29,8 @@ class UnderConstructionViewer extends Component<props, state> {
 
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
-            isBrowser ? <BrowserView tiempoRestante={this.state.tiempoRestante}/> : <MobileView/>
+            isBrowser ? <BrowserView tiempoRestante={this.state.tiempoRestante}/> :
+                <MobileView tiempoRestante={this.state.tiempoRestante}/>
         );
     }
 }
