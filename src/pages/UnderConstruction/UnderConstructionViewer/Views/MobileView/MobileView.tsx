@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './MobileView.scss';
-import {Container} from "reactstrap";
+import {Col, Container, Row} from "reactstrap";
 
 type props = { tiempoRestante: tiempo };
 type state = { tiempoRestante: tiempo };
@@ -28,8 +28,34 @@ class MobileView extends Component<props, state> {
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
             <div className="MobileView" data-testid="MobileView">
-                <Container fluid={true} className="text-center">
-                    <span>Hola Mundo</span>
+                <Container fluid={true} style={{marginTop: "15vh"}}>
+                    <Row rows={1} cols={1}>
+                        <Col cols={12}>
+                            <div className="text-dark text-center" id="titulo">
+                                <b>Sitio en construcción.</b>
+                            </div>
+                            <div className="text-dark text-center" id="subtitulo">
+                                Estamos trabajando en el sitio para brindarle la mejor
+                                experiencia como se lo merece.
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row rows={1} cols={1} className="mt-4">
+                        <Col cols={12} className="text-center text-dark">
+                            <b className="subtitulo">
+                                Tiempo Restante:
+                                <br/>
+                                {this.state.tiempoRestante.dias}
+                                &nbsp;días&nbsp;
+                                {this.state.tiempoRestante.horas}
+                                &nbsp;horas&nbsp;
+                                {this.state.tiempoRestante.minutos}
+                                &nbsp;minutos&nbsp;
+                                {this.state.tiempoRestante.segundos}
+                                &nbsp;segundos.
+                            </b>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
         );

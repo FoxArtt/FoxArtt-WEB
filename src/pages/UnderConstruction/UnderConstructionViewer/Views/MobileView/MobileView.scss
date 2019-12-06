@@ -5,6 +5,19 @@
   align-items: center;
   background-image: url("../../../../../assets/images/UnderConstruction/backgroundUnderConstructionMobile.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 70vw;
   background-position: top;
+  background-position-y: 3vh;
+
+  #titulo {
+    font-size: 7vw;
+  }
+
+  #subtitulo {
+    font-size: 5vw;
+  }
+
+  .subtitulo {
+    font-size: 4.5vw;
+  }
 }

@@ -1,9 +1,8 @@
 .BrowserView {
   background-image: url("../../../../../../src/assets/images/UnderConstruction/backgroundUnderConstruction-Reduced.svg");
   background-repeat: no-repeat;
-  background-size: 70vw;
-  background-position: top;
-  background-position-y: 3vh;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   align-items: center;
