@@ -13,9 +13,9 @@ deploy-prod:
   only:
     - master
   script:
-    - yarn
-    - yarn run gen-environments
-    - yarn run copy-environments
-    - yarn run build
+    - npm i -S
+    - npm run gen-environments
+    - npm run copy-environments
+    - npm run build
     - firebase use foxarttapp --token $FIREBASE_TOKEN
     - firebase deploy --only hosting -m "Pipe $CI_PIPELINE_ID Build $CI_BUILD_ID" --token $FIREBASE_TOKEN
