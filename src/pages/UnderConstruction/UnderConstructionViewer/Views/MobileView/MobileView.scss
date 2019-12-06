@@ -1,1 +1,10 @@
-.MobileView {}
+.MobileView {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../../../assets/images/UnderConstruction/backgroundUnderConstructionMobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}

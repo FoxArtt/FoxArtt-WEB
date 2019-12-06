@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './MobileView.scss';
+import {Container} from "reactstrap";
 
 type props = { tiempoRestante: tiempo };
 type state = { tiempoRestante: tiempo };
@@ -27,7 +28,9 @@ class MobileView extends Component<props, state> {
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
             <div className="MobileView" data-testid="MobileView">
-                MobileView Component
+                <Container fluid={true} className="text-center">
+                    <span>Hola Mundo</span>
+                </Container>
             </div>
         );
     }
