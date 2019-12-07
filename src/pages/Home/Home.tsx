@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Home.scss';
+import HomeViewer from "./HomeViewer/HomeViewer";
 
 type props = {};
 type state = {};
@@ -12,9 +13,7 @@ class Home extends Component<props, state> {
 
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
-            <div className="Home" data-testid="Home">
-                Home Component
-            </div>
+            <HomeViewer/>
         );
     }
 }
