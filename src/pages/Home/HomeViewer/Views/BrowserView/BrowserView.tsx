@@ -11,7 +11,7 @@ import {
     NavLink, Row
 } from "reactstrap";
 import {Button, Typography} from "@material-ui/core";
-import LandingImage from '../../../../../assets/images/Home/backgroundHomeLandingCreate2.svg';
+import LandingImage from '../../../../../assets/images/Home/backgroundHomeLandingCreate.svg';
 
 type props = {};
 type state = {};
@@ -25,7 +25,7 @@ class BrowserView extends Component<props, state> {
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
             <div className="BrowserView" data-testid="BrowserView">
-                <Navbar light expand="md" className="p-3 bg-white" fixed="top">
+                <Navbar light expand="md" className="p-3 bg-white animated fadeInDown" fixed="top">
                     <Container>
                         <NavbarBrand href="/">
                             <Typography variant="h5" className="text-swatch">
@@ -82,10 +82,10 @@ class BrowserView extends Component<props, state> {
                 </Navbar>
                 <Container className="min-vh-100 d-flex justify-content-center align-items-center">
                     <Row rows={1} cols={2}>
-                        <Col cols={6} className="text-center">
+                        <Col cols={6} className="text-center animated fadeInLeft">
                             <object width="450" data={LandingImage} type="image/svg+xml" aria-label='LandingImage'/>
                         </Col>
-                        <Col cols={6} className="text-left">
+                        <Col cols={6} className="text-left animated fadeInRight">
                             <Typography variant="h2" className="text-swatch">
                                 We Design & Build Creative Brands
                             </Typography>
@@ -94,8 +94,9 @@ class BrowserView extends Component<props, state> {
                                 Duis aute irure dolor reprehenderit voluptate velit esse dolore nulla pariatur
                             </p>
                             <br/>
-                            <Button color="primary" type="button" size="large">
-                                <div className="mt-1 mb-1 mr-4 ml-4">
+                            <Button variant="contained" type="button" size="large"
+                                    className="bg-custom-primary text-white">
+                                <div className="mt-2 mb-1 mr-3 ml-3">
                                     Aprender Más
                                 </div>
                             </Button>
