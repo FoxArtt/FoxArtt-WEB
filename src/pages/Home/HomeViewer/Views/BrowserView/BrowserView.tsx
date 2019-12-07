@@ -1,17 +1,9 @@
 import React, {Component} from 'react';
 import './BrowserView.scss';
-import {
-    Col,
-    Collapse,
-    Container,
-    Nav,
-    Navbar,
-    NavbarBrand,
-    NavItem,
-    NavLink, Row
-} from "reactstrap";
+import {Col, Container, Row} from "reactstrap";
 import {Button, Typography} from "@material-ui/core";
 import LandingImage from '../../../../../assets/images/Home/backgroundHomeLandingCreate.svg';
+import NavbarComponent from "../../../../../components/NavbarComponent/NavbarComponent";
 
 type props = {};
 type state = {};
@@ -25,61 +17,7 @@ class BrowserView extends Component<props, state> {
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
             <div className="BrowserView" data-testid="BrowserView">
-                <Navbar light expand="md" className="p-3 bg-white animated fadeInDown" fixed="top">
-                    <Container>
-                        <NavbarBrand href="/">
-                            <Typography variant="h5" className="text-swatch">
-                                FoxArtt
-                            </Typography>
-                        </NavbarBrand>
-                        <Collapse isOpen={true} navbar>
-                            <Nav className="ml-auto" navbar>
-                                <NavItem>
-                                    <NavLink className="mr-2 text-swatch text-swatch" href="/">
-                                        <Typography variant="h6" color="inherit">
-                                            Inicio
-                                        </Typography>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="mr-2 text-swatch text-swatch" href="/">
-                                        <Typography variant="h6" color="inherit">
-                                            Servicios
-                                        </Typography>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="mr-2 text-swatch text-swatch" href="/">
-                                        <Typography variant="h6" color="inherit">
-                                            Acerca de nosotros
-                                        </Typography>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="mr-2 text-swatch text-swatch" href="/">
-                                        <Typography variant="h6" color="inherit">
-                                            Equipo
-                                        </Typography>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="mr-2 text-swatch text-swatch" href="/">
-                                        <Typography variant="h6" color="inherit">
-                                            Clientes
-                                        </Typography>
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="ml-2 text-swatch text-swatch" href="/">
-                                        <Typography variant="h6" color="inherit">
-                                            Contáctenos
-                                        </Typography>
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
-                    </Container>
-                </Navbar>
+                <NavbarComponent/>
                 <Container className="min-vh-100 d-flex justify-content-center align-items-center">
                     <Row rows={1} cols={2}>
                         <Col cols={6} className="text-center animated fadeInLeft">
