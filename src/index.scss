@@ -1,4 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
 @font-face {
   font-family: 'Arciform';
   font-style: normal;
@@ -12,14 +13,23 @@
   url('./assets/fonts/Arciform/Arciform.svg#Arciform') format('svg'); /* Legacy iOS */
 }
 
-body {
-  margin: 0;
-  font-family: Arciform, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.text-custom-primary {
+  color: #F07622 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+.text-custom-light {
+  color: #E6E3DF !important;
+}
+
+.text-custom-secondary {
+  color: #56667B !important;
+}
+
+.text-swatch {
+  color: #3F3C56 !important;
+}
+
+body, *, .MuiTypography-root, .MuiTypography-h6 {
+  margin: 0;
+  font-family: Arciform, sans-serif !important;
 }
