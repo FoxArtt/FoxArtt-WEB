@@ -18,4 +18,5 @@ class Home extends Component<props, state> {
     }
 }
 
+// @ts-ignore
 export default Home;

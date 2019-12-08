@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import './MobileView.scss';
 
 // Components imports
-import TemporaryDrawer from './TemporaryDrawer';
+import HamburgerMenu from './HamburgerMenu';
 
 // Frames imports
 import {Col, Container, Row} from "reactstrap";
@@ -32,7 +32,7 @@ class MobileView extends Component<props, state> {
                         <Col xs={{size: 11}} className="mt-4">
                             <Row className="d-flex justify-content-between">
                                 <img src={logoHeader} className="LogoHeader"/>
-                                <TemporaryDrawer/>
+                                <HamburgerMenu/>
                             </Row>
                         </Col>
 
