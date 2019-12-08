@@ -19,6 +19,7 @@ type props = {};
 type state = {};
 
 class MobileView extends Component<props, state> {
+<<<<<<< HEAD
   constructor (props: props) {
     super(props)
     this.state = {}
@@ -72,6 +73,47 @@ class MobileView extends Component<props, state> {
 
               <div>
               </div>
+=======
+    constructor(props: props) {
+        super(props);
+        this.state = {};
+    }
+
+    render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
+        return (
+            <div className="MobileView" data-testid="MobileView">
+                <Container>
+
+                    {/* Logo and HamburgerMenu */}
+                    <Row className="d-flex justify-content-center">
+                        <Col xs={{size: 11}} className="mt-4">
+                            <Row className="d-flex justify-content-between">
+                                <img src={logoHeader} className="LogoHeader"/>
+                                <HamburgerMenu/>
+                            </Row>
+                        </Col>
+                    </Row>
+                    {/* Logo and HamburgerMenu */}
+                </Container>
+
+                <Container>
+
+                    <Row className="d-flex justify-content-center">
+
+
+                        <Col xs={{size: 11}} className="mt-1 MainBannerImage">
+                        </Col>
+
+                        <Col xs={{size: 11}} className="IntroductoryText my-4 text-left">
+                            <h3 className="IntroductoryTitle"> FoxArtt </h3>
+                            <p className="IntroductoryParagraph mt-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet nam nisi quo rem suscipit tempore velit. Alias, obcaecati, quisquam. </p>
+                            
+                        </Col>
+                    </Row>
+
+                </Container>
+
+>>>>>>> 521a92bad9f0faea678ab0e5208ce3510bbf59a4
             </div>
 
           </Container>
@@ -83,4 +125,8 @@ class MobileView extends Component<props, state> {
   }
 }
 
+<<<<<<< HEAD
 export default MobileView
+=======
+export default MobileView;
+>>>>>>> 521a92bad9f0faea678ab0e5208ce3510bbf59a4
