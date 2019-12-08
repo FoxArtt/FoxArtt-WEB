@@ -2,15 +2,6 @@
 
 .MobileView {  }
 
-.introduceRow {
-  display: flex;
-  justify-content: center;
-}
-
-.introduceImage {
-  width: 95%;
-}
-
 .LogoHeader {
   width: 30px;
 }
@@ -23,3 +14,11 @@
   height: 300px;
 }
 
+.IntroductoryTitle {
+  font-size: 60px;
+}
+
+.IntroductoryParagraph {
+  font-size: 23px;
+  font-weight: 100;
+}
