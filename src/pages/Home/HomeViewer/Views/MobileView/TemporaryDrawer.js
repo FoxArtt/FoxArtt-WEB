@@ -10,6 +10,18 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+
+const pathFOntFamily = ""
+
+const THEME = createMuiTheme({
+  typography: {
+    "fontFamily": 'Arciform',
+    "fontStyle": "normal",
+    "fontWeight": "normal"
+  }
+});
+
 const useStyles = makeStyles({
   list: {
     width: 250,
@@ -64,11 +76,18 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      <Button onClick={toggleDrawer('right', true)}> Open </Button>
 
-      <Drawer anchor="right" open={state.right} onClose={toggleDrawer('right', false)}>
-        {sideList('right')}
-      </Drawer>
+      {/* Adding new font styles to predefined materialui components */}
+      <MuiThemeProvider theme={THEME}>
+
+        <Button onClick={toggleDrawer('right', true)}> Open </Button>
+
+        <Drawer anchor="right" open={state.right}
+                onClose={toggleDrawer('right', false)}>
+          {sideList('right')}
+        </Drawer>
+
+      </MuiThemeProvider>
     </div>
   );
 }

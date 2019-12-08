@@ -2,6 +2,16 @@
 @import '~animate.css/animate.css';
 
 @font-face {
+  font-family: 'Arciform';
+  font-style: normal;
+  font-weight: normal;
+  //src: url("./assets/fonts/Arciform/Arciform.eot"); /* IE9 Compat Modes */
+  src: local('Open Sans'), local('OpenSans'),
+  //url('./assets/fonts/Arciform/Arciform.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  //url('./assets/fonts/Arciform/Arciform.woff2') format('woff2'), /* Super Modern Browsers */
+  url('./assets/fonts/Arciform/Arciform.woff') format('woff'); /* Modern Browsers */
+  //url('./assets/fonts/Arciform/Arciform.ttf') format('truetype'), /* Safari, Android, iOS */
+  //url('./assets/fonts/Arciform/Arciform.svg#Arciform') format('svg'); /* Legacy iOS */
 }
 
 body {
