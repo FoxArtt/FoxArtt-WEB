@@ -26,26 +26,37 @@ class MobileView extends Component<props, state> {
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
             <div className="MobileView" data-testid="MobileView">
-                <Container className="IntroductorieSection">
-                    <Row className="d-flex justify-content-center">
+                <Container>
 
+                    {/* Logo and HamburgerMenu */}
+                    <Row className="d-flex justify-content-center">
                         <Col xs={{size: 11}} className="mt-4">
                             <Row className="d-flex justify-content-between">
                                 <img src={logoHeader} className="LogoHeader"/>
                                 <HamburgerMenu/>
                             </Row>
                         </Col>
+                    </Row>
+                    {/* Logo and HamburgerMenu */}
+                </Container>
+
+                <Container>
+
+                    <Row className="d-flex justify-content-center">
+
 
                         <Col xs={{size: 11}} className="mt-1 MainBannerImage">
                         </Col>
 
-                        <Col xs={{size: 11}} className="my-4 text-center">
-                            <h3 className=""> FoxArtt </h3>
-                            <p className="mt-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet nam nisi quo rem suscipit tempore velit. Alias, obcaecati, quisquam. </p>
+                        <Col xs={{size: 11}} className="IntroductoryText my-4 text-left">
+                            <h3 className="IntroductoryTitle"> FoxArtt </h3>
+                            <p className="IntroductoryParagraph mt-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet nam nisi quo rem suscipit tempore velit. Alias, obcaecati, quisquam. </p>
+                            
                         </Col>
                     </Row>
 
                 </Container>
+
             </div>
         );
     }

@@ -9,22 +9,13 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
-import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
-
-
-const THEME = createMuiTheme({
-    typography: {
-        fontFamily: 'Arciform'
-    }
-})
+import { MuiThemeProvider } from '@material-ui/core/styles';
+import { FontStyles } from './FontStyles';
 
 const useStyles = makeStyles({
     list: {
         width: 250,
-    },
-    fullList: {
-        width: 'auto',
-    },
+    }
 });
 
 export default function HamburgerMenu() {
@@ -70,7 +61,7 @@ export default function HamburgerMenu() {
 
     return (
       <div>
-          <MuiThemeProvider theme={THEME}>
+          <MuiThemeProvider theme={FontStyles}>
 
               <Button onClick={toggleDrawer('right', true)}>
                   <MenuRoundedIcon> </MenuRoundedIcon>
