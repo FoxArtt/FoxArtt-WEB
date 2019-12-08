@@ -15,10 +15,68 @@
 }
 
 .IntroductoryTitle {
-  font-size: 60px;
+  font-size: 55px;
+  color: #56667B;
 }
 
 .IntroductoryParagraph {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 100;
+  color: #56667B;
 }
+
+.buttonLearnMore {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: lighter;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  padding: 15px 30px;
+  background-color: #3F3C56;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.buttonLearnMore:hover {
+  text-decoration: none;
+}
+
+.middleSection {
+  background: #56667B;
+  height: 500px;
+}
+
+.ContainerMiddleSection {
+  padding: 40px 0;
+}
+
+.ContainerMiddleSection .backgroundContainer {
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ImageContainerMiddle {
+}
+
+.InformativeMiddleSection {
+  background: #657387;
+  height: 100px;
+}
+
+//.imageTopMiddleSection {
+//  background-image: url('./../../../../../assets/images/Home/middleSectionImage.jpg');
+//  background-size: contain;
+//  background-position: center center;
+//  height: 300px;
+//  background-repeat: no-repeat;
+//  margin: 40px 0px;
+//}
+
+
+
+
+
+
+
+
+
