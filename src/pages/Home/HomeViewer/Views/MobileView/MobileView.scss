@@ -1,1 +1,25 @@
-.MobileView {}
+
+
+.MobileView {  }
+
+.introduceRow {
+  display: flex;
+  justify-content: center;
+}
+
+.introduceImage {
+  width: 95%;
+}
+
+.LogoHeader {
+  width: 30px;
+}
+
+.MainBannerImage {
+  background-image: url('../../../../../assets/images/Home/backgroundHomeLandingCreate.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 300px;
+}
+

@@ -1,5 +1,18 @@
 import React, {Component} from 'react';
+
+// Styles imports
 import './MobileView.scss';
+
+// Components imports
+import TemporaryDrawer from './TemporaryDrawer';
+
+// Frames imports
+import {Col, Container, Row} from "reactstrap";
+
+// Images imports
+import MainBannerImage from "../../../../../assets/images/Home/backgroundHomeLandingCreate.svg";
+import logoHeader from '../../../../../assets/images/Logos/FoxArtt-Logo-WEB.svg'
+
 
 type props = {};
 type state = {};
@@ -13,7 +26,26 @@ class MobileView extends Component<props, state> {
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
             <div className="MobileView" data-testid="MobileView">
-                MobileView Component
+                <Container className="IntroductorieSection">
+                    <Row className="d-flex justify-content-center">
+
+                        <Col xs={{size: 11}} className="mt-4">
+                            <Row className="d-flex justify-content-between">
+                                <img src={logoHeader} className="LogoHeader"/>
+                                <TemporaryDrawer/>
+                            </Row>
+                        </Col>
+
+                        <Col xs={{size: 11}} className="mt-1 MainBannerImage">
+                        </Col>
+
+                        <Col xs={{size: 11}} className="my-4 text-center">
+                            <h3 className=""> FoxArtt </h3>
+                            <p className="mt-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eveniet nam nisi quo rem suscipit tempore velit. Alias, obcaecati, quisquam. </p>
+                        </Col>
+                    </Row>
+
+                </Container>
             </div>
         );
     }
