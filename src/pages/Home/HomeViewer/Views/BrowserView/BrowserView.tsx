@@ -18,29 +18,36 @@ class BrowserView extends Component<props, state> {
         return (
             <div className="BrowserView" data-testid="BrowserView">
                 <NavbarComponent/>
-                <Container className="min-vh-100 d-flex justify-content-center align-items-center">
-                    <Row rows={1} cols={2}>
-                        <Col cols={6} className="text-center animated fadeInLeft">
-                            <object width="450" data={LandingImage} type="image/svg+xml" aria-label='LandingImage'/>
-                        </Col>
-                        <Col cols={6} className="text-left animated fadeInRight">
-                            <Typography variant="h2" className="text-swatch">
-                                We Design & Build Creative Brands
-                            </Typography>
-                            <br/>
-                            <p className="text-swatch" style={{fontSize: "1.5rem"}}>
-                                Duis aute irure dolor reprehenderit voluptate velit esse dolore nulla pariatur
-                            </p>
-                            <br/>
-                            <Button variant="contained" type="button" size="large"
-                                    className="bg-custom-primary text-white">
-                                <div className="mt-2 mb-1 mr-3 ml-3">
-                                    Aprender Más
-                                </div>
-                            </Button>
-                        </Col>
-                    </Row>
-                </Container>
+                <section className="min-vh-100 d-flex justify-content-center align-items-center">
+                    <Container>
+                        <Row rows={1} cols={2}>
+                            <Col cols={6} className="text-center animated fadeInLeft">
+                                <object width="450" data={LandingImage} type="image/svg+xml" aria-label='LandingImage'/>
+                            </Col>
+                            <Col cols={6} className="text-left animated fadeInRight">
+                                <Typography variant="h2" className="text-swatch">
+                                    We Design & Build Creative Brands
+                                </Typography>
+                                <br/>
+                                <p className="text-swatch" style={{fontSize: "1.5rem"}}>
+                                    Duis aute irure dolor reprehenderit voluptate velit esse dolore nulla pariatur
+                                </p>
+                                <br/>
+                                <Button variant="contained" type="button" size="large"
+                                        className="bg-custom-primary text-white">
+                                    <div className="mt-2 mb-1 mr-3 ml-3">
+                                        Aprender Más
+                                    </div>
+                                </Button>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
+                <section className="min-vh-100 d-flex justify-content-center align-items-center">
+                    <Container>
+
+                    </Container>
+                </section>
             </div>
         );
     }
