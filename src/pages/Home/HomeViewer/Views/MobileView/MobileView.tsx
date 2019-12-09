@@ -7,28 +7,40 @@ import './MobileView.scss'
 import HamburgerMenu from './HamburgerMenu'
 
 // Frames imports
-import { Col, Container, Row } from 'reactstrap'
+import { Card, Col, Container, Row } from 'reactstrap'
 
 // Images imports
 import logoHeader
   from '../../../../../assets/images/Logos/FoxArtt-Logo-WEB.svg'
 import middleImage
   from '../../../../../assets/images/Home/middleSectionImage.jpg'
+import cardMarketingIcon from '../../../../../assets/images/Home/icons/social-media-marketing.svg'
+import cardBrandingIcon from '../../../../../assets/images/Home/icons/brand.svg'
+import cardMotionIcon from '../../../../../assets/images/Home/icons/motion-graphics.svg'
+import cardUIIcon from '../../../../../assets/images/Home/icons/ui.svg'
+import cardUXIcon from '../../../../../assets/images/Home/icons/ux.svg'
+
 
 type props = {};
-type state = {};
 
-class MobileView extends Component<props, state> {
-  
+
+
+class MobileView extends Component<props> {
+
   constructor (props: props) {
     super(props)
-    this.state = {}
+    this.state = {
+    }
   }
+
+
 
   render (): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
     return (
       <div className="MobileView" data-testid="MobileView">
-        <Container>
+
+        {/* INTRODUCTORY SECTION */}
+        <Container className="IntroductorySection">
 
           {/* Logo and HamburgerMenu */}
           <Row className="d-flex justify-content-center">
@@ -59,8 +71,10 @@ class MobileView extends Component<props, state> {
             </Col>
           </Row>
         </Container>
+        {/* INTRODUCTORY SECTION */}
 
 
+        {/* MIDDLE SECTION */}
         <Container className="middleSection">
           <Container fluid className="ContainerMiddleSection">
             <div className="backgroundContainer">
@@ -77,7 +91,61 @@ class MobileView extends Component<props, state> {
             </div>
 
           </Container>
-            
+
+
+        </Container>
+        {/* MIDDLE SECTION */}
+
+        <Container className="ServicesSection">
+          <div className="containerHeaderTextServices">
+            <h4 className="headerTextServices"> FULL SERVICE STUDIO </h4>
+            <h1 className="headerTextServices"> Services </h1>
+          </div>
+
+          <div className="">
+
+            <div className="containerCards row d-flex justify-content-start">
+              {
+                [
+                  {
+                    imageDir: cardMarketingIcon,
+                    text: "marketing"
+                  },
+                  {
+                    imageDir: cardBrandingIcon,
+                    text: "branding"
+                  },
+                  {
+                    imageDir: cardMotionIcon,
+                    text: "motion"
+                  },
+                  {
+                    imageDir: cardUIIcon,
+                    text: "ui design"
+                  },
+                  {
+                    imageDir: cardUXIcon,
+                    text: "ux design"
+                  }
+                ].map((object: any, index: number) => (
+                    <div className="col-6 my-2">
+                      <div className="card-service">
+                        <div className="row d-flex justify-content-center mt-4">
+                          <img src={object.imageDir}
+                               className="icon-card-service"/>
+                        </div>
+                        <span className="divider-card mt-5">  </span>
+                        <p
+                          className="text-card-service text-uppercase mt-3"> {object.text} </p>
+                      </div>
+                    </div>
+                ))
+              }
+            </div>
+
+
+          </div>
+
         </Container>
 
       </div>
@@ -85,4 +153,4 @@ class MobileView extends Component<props, state> {
   }
 }
 
-export default MobileView;
+export default MobileView

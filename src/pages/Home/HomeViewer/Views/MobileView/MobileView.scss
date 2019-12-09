@@ -1,6 +1,11 @@
+:root {
+  --textColor: #3f3c56;
+  --mainColor: #F07622;
+}
 
-
-.MobileView {  }
+.MobileView {
+  color: #3f3c56;
+}
 
 .LogoHeader {
   width: 30px;
@@ -16,7 +21,6 @@
 
 .IntroductoryTitle {
   font-size: 55px;
-  color: #56667B;
 }
 
 .IntroductoryParagraph {
@@ -44,7 +48,6 @@
 
 .middleSection {
   background: #56667B;
-  height: 500px;
 }
 
 .ContainerMiddleSection {
@@ -60,15 +63,37 @@
 
 .InformativeMiddleSection {
   background: #657387;
-  height: 100px;
 }
 
-//.imageTopMiddleSection {
-//  background-image: url('./../../../../../assets/images/Home/middleSectionImage.jpg');
-//  background-size: contain;
-//  background-position: center center;
-//  height: 300px;
-//  background-repeat: no-repeat;
-//  margin: 40px 0px;
-//}
+/* SERVICES SECTION */
 
+.containerHeaderTextServices {
+  margin-top: 80px;
+}
+
+.headerTextServices {
+  margin: 40px 0;
+}
+
+.containerCards {  }
+
+.card-service {
+  padding: 8% 8% 10px 8%;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #56667B;
+}
+
+.icon-card-service {
+  width: 50%;
+}
+
+.divider-card {
+  display: inline-block;
+  background: var(--mainColor);
+  height: 3px;
+  width: 22px;
+}
+
+.text-card-service {
+  font-size: 20px;
+}
