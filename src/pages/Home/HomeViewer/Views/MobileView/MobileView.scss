@@ -3,6 +3,15 @@
   --mainColor: #F07622;
 }
 
+
+// GENERAL STYLES
+.divider {
+  height: 3px;
+  width: 22px;
+  display: inline-block;
+}
+
+
 .MobileView {
   color: #3f3c56;
 }
@@ -75,7 +84,8 @@
   margin: 40px 0;
 }
 
-.containerCards {  }
+.containerCards {
+}
 
 .card-service {
   padding: 8% 8% 10px 8%;
@@ -87,13 +97,45 @@
   width: 50%;
 }
 
+
 .divider-card {
-  display: inline-block;
   background: var(--mainColor);
-  height: 3px;
-  width: 22px;
 }
 
 .text-card-service {
   font-size: 20px;
+}
+
+
+
+/* Section About us */
+.AboutUsSection {
+  color: #FFFFFF;
+  background: #F07622;
+}
+
+.AboutUsSection .containerAboutUsSection {
+}
+
+.TextMiddleAboutUsSection {
+  font-size: 18px;
+}
+
+.TextHeaderAboutUsSection .text-one {
+}
+
+.TextHeaderAboutUsSection .text-two {
+  margin-top: 50px;
+}
+
+.divider-aboutus {
+  background: #FFFFFF;
+}
+
+.buttonAboutUs {
+  color: #FFFFFF;
+}
+
+.buttonAboutUs:hover {
+  text-decoration: none;
 }
