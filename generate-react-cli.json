@@ -3,7 +3,8 @@
     "path": "src/",
     "css": {
       "preprocessor": "scss",
-      "module": false
+      "module": false,
+      "withStyle": true
     },
     "test": {
       "library": "Testing Library",
@@ -11,5 +12,6 @@
     },
     "withStory": true,
     "withLazy": true
-  }
+  },
+  "usesTypeScript": true
 }
